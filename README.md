@@ -37,7 +37,7 @@ The ultimate goal of this project is to provide banks with a toolset to proactiv
 
 The dataset used in this project consists of historical customer information obtained from [https://www.kaggle.com/datasets/mathchi/churn-for-bank-customers]. The dataset contains a comprehensive set of features that capture various aspects of customer interactions with the bank. Here's an overview of the dataset:
 
-- **Features**:
+**Features**:
 - **Credit Score (creditscore)**: The credit score of the customer.
 - **Geography (geography)**: The country where the customer resides.
 - **Gender (gender)**: The gender of the customer.
@@ -51,4 +51,30 @@ The dataset used in this project consists of historical customer information obt
 - **Exited (Exited)**: The target variable indicating whether the customer has churned (1 if yes, 0 if no).
 
 These features provide valuable insights into various aspects of customer behavior and demographics, which are instrumental in predicting customer churn.
+
+
+## Results:
+
+### Model Performance:
+
+After training and evaluating multiple machine learning algorithms, the Random Forest Classifier emerged as the top-performing model for predicting customer churn. Here are the key performance metrics obtained during evaluation:
+
+- **Area Under the ROC Curve (AUC)**: [Insert AUC value here]
+- **F1-score**: [Insert F1-score value here]
+- **Accuracy**: [Insert accuracy value here]
+
+### Visualizations:
+
+Below is a screenshot showcasing the performance of the Random Forest Classifier in the notebook:
+
+
+
+### Interpretation:
+
+- **Feature Importance**: Analysis of feature importance revealed [mention key features here] as the most influential factors in predicting churn behavior.
+
+### Conclusion:
+
+The results demonstrate the efficacy of the Random Forest Classifier in predicting customer churn, providing banks with a valuable tool for proactive churn management and customer retention efforts.
+
 
