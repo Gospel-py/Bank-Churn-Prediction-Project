@@ -51,6 +51,25 @@ The dataset used in this project consists of historical customer information obt
 These features provide valuable insights into various aspects of customer behavior and demographics, which are instrumental in predicting customer churn.
 
 
+## Getting Started:
+
+As this project was developed on Google Collab, you can easily access and run the code directly in your browser. Follow these steps to get started:
+
+1. **Accessing the Notebook**:
+   - Click [here](https://colab.research.google.com/drive/1MFM7t-9BGTflstVqMnih6bWhU8BHbxLn?usp=sharing) to open the project notebook in Google Colab.
+
+2. **Running the Notebook**:
+   - Once the notebook is open, you can run each cell sequentially by pressing `Shift + Enter`.
+
+3. **Interacting with the Code**:
+   - Feel free to modify the code and experiment with different parameters, algorithms, or preprocessing techniques.
+
+4. **Saving Results**:
+   - Any outputs, including plots, tables, or trained models, will be saved automatically within the notebook.
+   - You can also download the notebook for future reference or sharing purposes.
+
+That's it! 
+
 ## Results:
 
 ### Model Performance:
