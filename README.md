@@ -4,24 +4,22 @@
 ## Overview:
 Customer churn, the phenomenon where customers cease their relationship with a business, can have significant financial implications for banks. Understanding and predicting churn can help banks retain customers and maintain revenue streams. This project focuses on building predictive models to anticipate churn behavior in a banking context.
 
-Using a dataset containing historical customer information such as demographics, transaction history, and interactions with the bank, I aimed to develop machine learning models capable of identifying customers likely to churn in the future. By leveraging this predictive capability, banks can tailor retention strategies and allocate resources more effectively to mitigate customer attrition.
+Using a dataset containing historical customer information such as age, estimated salary, credit score, and balance, I aimed to develop machine learning models capable of identifying customers likely to churn in the future. By leveraging this predictive capability, banks can tailor retention strategies and allocate resources more effectively to mitigate customer attrition.
 
 Throughout the project, I explored various machine learning algorithms, evaluated their performance using relevant metrics, and iteratively refined the models to achieve optimal predictive accuracy. Additionally, I conducted feature engineering to extract meaningful insights from the dataset and enhance the predictive power of our models.
-
-The ultimate goal of this project is to provide banks with a toolset to proactively identify at-risk customers and implement targeted retention efforts, thereby fostering long-term customer relationships and maximizing profitability.
 
 
 ## Features:
 
 - **Dataset Exploration**: 
   - Analyzed and visualized the dataset to gain insights into customer behavior and characteristics.
-  - Explored distribution of features, missing values, and correlations to inform preprocessing steps.
+  - Explored distribution of features and correlations to inform preprocessing steps.
 
 - **Preprocessing**:
   - Conducted feature scaling and normalization to ensure uniformity across features.
   - Encoded categorical variables using techniques such as one-hot encoding or label encoding.
   - Applied SMOTE (Synthetic Minority Over-sampling Technique) to address class imbalance in the dataset.
-  - Split the dataset into training and testing sets to evaluate model performance effectively.
+  - Splitted the dataset into training and testing sets to evaluate model performance effectively.
 
 - **Model Building**:
   - Implemented various machine learning algorithms such as Logistic Regression, Decision Trees, Random Forest, Gradient Boosting.
@@ -59,22 +57,28 @@ These features provide valuable insights into various aspects of customer behavi
 
 After training and evaluating multiple machine learning algorithms, the Random Forest Classifier emerged as the top-performing model for predicting customer churn. Here are the key performance metrics obtained during evaluation:
 
-- **Area Under the ROC Curve (AUC)**: [Insert AUC value here]
-- **F1-score**: [Insert F1-score value here]
-- **Accuracy**: [Insert accuracy value here]
+- **Area Under the ROC Curve (AUC)**: 86.020448
+- **F1-score**: 60.132450
+- **Accuracy**: 84.95
 
 ### Visualizations:
 
 Below is a screenshot showcasing the performance of the Random Forest Classifier in the notebook:
 
+![Screenshot (307)](https://github.com/Gospel-py/Bank-Churn-Prediction-Project/assets/149397162/7b8fb734-66da-4f1d-8a66-7f7ef9c4eee1)
+
+![Screenshot (308)](https://github.com/Gospel-py/Bank-Churn-Prediction-Project/assets/149397162/5325aa4b-70da-47cc-bfbf-b7f5b47d34ae)
+
+![Screenshot (309)](https://github.com/Gospel-py/Bank-Churn-Prediction-Project/assets/149397162/396af1a2-e8f8-4b11-80f9-5604562039e1)
+
+![Screenshot (311)](https://github.com/Gospel-py/Bank-Churn-Prediction-Project/assets/149397162/2803f433-37f8-429b-af43-060b632b088b)
 
 
 ### Interpretation:
 
-- **Feature Importance**: Analysis of feature importance revealed [mention key features here] as the most influential factors in predicting churn behavior.
+- **Feature Importance**: Analysis of feature importance revealed Age, EstimatedSalary, CreditScore, Balance, NumOfProducts, Tenure as the most influential factors in predicting churn behavior.
+ 
+![Screenshot (305)](https://github.com/Gospel-py/Bank-Churn-Prediction-Project/assets/149397162/cdf79cda-efe9-4b83-baaa-3279c6b5e764)
 
-### Conclusion:
-
-The results demonstrate the efficacy of the Random Forest Classifier in predicting customer churn, providing banks with a valuable tool for proactive churn management and customer retention efforts.
 
 
