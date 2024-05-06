@@ -4,7 +4,7 @@
 ## Overview:
 Customer churn, the phenomenon where customers cease their relationship with a business, can have significant financial implications for banks. Understanding and predicting churn can help banks retain customers and maintain revenue streams. This project focuses on building predictive models to anticipate churn behavior in a banking context.
 
-Using a dataset containing historical customer information such as age, estimated salary, credit score, and balance, I aimed to develop machine learning models capable of identifying customers likely to churn in the future. By leveraging this predictive capability, banks can tailor retention strategies and allocate resources more effectively to mitigate customer attrition.
+Using a dataset containing historical customer information such as transaction history, demographics, account activity, customer interactions, and other relevant features., I aimed to develop machine learning models capable of identifying customers likely to churn in the future. By leveraging this predictive capability, banks can tailor retention strategies and allocate resources more effectively to mitigate customer attrition.
 
 Throughout the project, I explored various machine learning algorithms, evaluated their performance using relevant metrics, and iteratively refined the models to achieve optimal predictive accuracy. Additionally, I conducted feature engineering to extract meaningful insights from the dataset and enhance the predictive power of our models.
 
