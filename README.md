@@ -19,7 +19,7 @@ Throughout the project, I explored various machine learning algorithms, evaluate
   - Conducted feature scaling and normalization to ensure uniformity across features.
   - Encoded categorical variables using techniques such as one-hot encoding or label encoding.
   - Applied SMOTE (Synthetic Minority Over-sampling Technique) to address class imbalance in the dataset.
-  - Splitted the dataset into training and testing sets to evaluate model performance effectively.
+  - Split the dataset into training and testing sets to evaluate model performance effectively.
 
 - **Model Building**:
   - Implemented various machine learning algorithms such as Logistic Regression, Decision Trees, Random Forest, Gradient Boosting.
